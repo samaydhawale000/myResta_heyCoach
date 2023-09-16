@@ -1,0 +1,66 @@
+.navMainDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 80px 4px 80px;
+  align-items: center;
+  background-color: #e1ac45;
+  position: sticky;
+  z-index: 10;
+}
+.navLogoDiv > img {
+  width: 70px;
+}
+.navLogoDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 226px;
+  align-items: center;
+}
+
+.navLinksDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+}
+
+.navLinks {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.navLinks:hover {
+  font-size: 19px;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.homeMainDiv > img {
+  width: 500px;
+}
+.homeMainDiv {
+  width: 100%;
+  padding: 100px 80px 4px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeMainDiv > div {
+  width: 50%;
+}
+
+.loginDiv {
+  margin: 60px auto;
+  width: 400px;
+  padding: 30px;
+  border: 1.5px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.restaMainDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 60px 120px 0px 120px;
+}
